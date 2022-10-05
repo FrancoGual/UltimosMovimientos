@@ -52,8 +52,21 @@
           <button type="button" class="btn btn-warning">Registrarse</button>
         </div>
       </nav>
-      <div class="container mt-auto">
+      <div class="container mt-3 d-flex flex-column">
         <!--<header><h1>page header section</h1></header>-->
+
+        <header>
+          <p style="float: right">
+            <span style="font-weight: 550"
+              >Bienvenido, NOMBRE APELLIDO. <br
+            /></span>
+
+            <span style="font-size: smaller"
+              ><a href="README.md">Ver ayuda.</a></span
+            >
+          </p>
+          <p style="float: left">Miércoles 5 de Octubre, 2022</p>
+        </header>
 
         <section>
           <h2>Detalles de movimientos</h2>
@@ -121,7 +134,7 @@
               </tr>
             </thead>
             <tbody>
-              <tr>
+              <tr data-toggle="modal" data-target="#exampleModal">
                 <th scope="row">03/10/2022</th>
                 <td>RETIRO DE EFECTIVO/CAJERO</td>
                 <td style="color: red">-$3000</td>
